@@ -10,11 +10,11 @@
 
 </head>
 </head>
-<body class="overflow-x-clip">
+<body>
 
    <!--Header-->
 
-   <header class="flex fixed w-screen flex-row shadow-md z-50 bg-white justify-between gap-2.5 md:p-10 items-center h-16  p-5" >
+   <header class="flex fixed w-full flex-row shadow-md z-50 bg-white justify-between gap-2.5 md:p-10 items-center h-16  p-5" >
          <img src="Documents/Asset 1.png"  alt="Teksavy-Logo" class="size-25 md:size-29 object-contain">
          <nav class="md:flex flex-row justify-between items-center gap-7 hidden">
             <a href="#home" class="cursor-pointer font-semibold underline decoration-transparent hover:underline-offset-4 transition-all ease-in-out duration-400 hover:decoration-blue-900">Home</a>
@@ -24,7 +24,7 @@
             <a href="#contact" class="cursor-pointer font-semibold hover:underline-offset-4 underline 
             decoration-transparent hover:decoration-blue-900 transition-all ease-in-out duration-400">Contact</a>
          </nav>
-         <div id="menubtn" class="md:hidden active:scale-90 mr-3 cursor-pointer" >
+         <div id="menubtn" class="md:hidden active:scale-90 cursor-pointer" >
            <div class="bg-black h-0.5 w-5 mb-1 rounded-md"></div>
            <div class="bg-black h-0.5 w-5 mb-1 rounded-md"></div>
            <div class="bg-black h-0.5 w-5 rounded-md"></div>
@@ -33,18 +33,18 @@
          
    </header>
 
-   <div id="hiddenmenu" class="bg-white h-[60vh] opacity-0 transition-all duration-300 
-   ease-in-out -translate-y-5 pointer-events-none delay-75  text-lg pl-10 pt-24 font-bold fixed w-full z-40" >
-            <a href="#home"><div class=" transition-all duration-200 ease-in-out pl-3 mr-5 mb-3 hover:text-blue-900 cursor-pointer hover:border border-gray-500 bg-blue-100 hover:bg-white rounded-sm" >Home</div></a>
-            <a href="#service"><div class="transition-all duration-200 ease-in-out pl-3 mr-5 mb-3 hover:text-blue-900 cursor-pointer hover:border border-gray-500 bg-blue-100 hover:bg-white rounded-sm">Services</div></a>
-            <a href="#about"><div class="transition-all duration-200 ease-in-out pl-3 mr-5 mb-3 hover:text-blue-900 cursor-pointer hover:border border-gray-500 bg-blue-100 hover:bg-white rounded-sm">About</div></a>
-            <a href="#project"><div class="transition-all duration-200 ease-in-out pl-3 mr-5 mb-3 hover:text-blue-900 cursor-pointer hover:border border-gray-500 bg-blue-100 hover:bg-white rounded-sm">Projects</div></a>
-            <a href="#contact"><div class="transition-all duration-200 ease-in-out pl-3 mr-5 mb-3 hover:text-blue-900 cursor-pointer hover:border border-gray-500 bg-blue-100 hover:bg-white rounded-sm">Contact</div></a>
+   <div id="hiddenmenu" class="bg-white h-[50vh] opacity-0 transition-all duration-300 
+   ease-in-out -translate-y-5 pointer-events-none delay-75  text-lg pl-10 pt-30 font-bold fixed w-full z-40" >
+            <a href="#home"><div class=" transition-all duration-200 ease-in-out pl-3 mr-5 mb-3 active:text-blue-900 cursor-pointer hover:border border-gray-500 bg-blue-100 active:bg-white rounded-sm" >Home</div></a>
+            <a href="#service"><div class="transition-all duration-200 ease-in-out pl-3 mr-5 mb-3 active:text-blue-900 cursor-pointer hover:border border-gray-500 bg-blue-100 active:bg-white rounded-sm">Services</div></a>
+            <a href="#about"><div class="transition-all duration-200 ease-in-out pl-3 mr-5 mb-3 active:text-blue-900 cursor-pointer hover:border border-gray-500 bg-blue-100 active:bg-white rounded-sm">About</div></a>
+            <a href="#project"><div class="transition-all duration-200 ease-in-out pl-3 mr-5 mb-3 active:text-blue-900 cursor-pointer hover:border border-gray-500 bg-blue-100 active:bg-white rounded-sm">Projects</div></a>
+            <a href="#contact"><div class="transition-all duration-200 ease-in-out pl-3 mr-5 mb-3 active:text-blue-900 cursor-pointer hover:border border-gray-500 bg-blue-100 active:bg-white rounded-sm">Contact</div></a>
          </div>
 
    <!--Hero-Section -->
 
-   <section id="home" class="relative w-screen  h-screen text-center text-white md:pt-40  pt-30 p-4">
+   <section id="home" class="relative w-full  h-screen text-center text-white md:pt-40  pt-30 p-4">
       <img src="Documents/header3.jpg" alt="" class=" h-screen w-full object-cover absolute top-0 left-0 -z-20">
      <div class="bg-[#070e2b] h-screen w-full absolute top-0 left-0 opacity-50 -z-10"></div>
       <h1 class="text-4xl font-extrabold md:text-5xl" >Digital <span class="text-blue-400" >Solutions</span> For Businesses</h1>
@@ -57,36 +57,32 @@
    <!--Services-Section-->
 
    
-   <section id="service" class="text-center w-full p-6 relative ">
+   <section id="service" class="text-center w-full p-6">
       <h1 class="text-[23px] font-bold mb-5 md:text-3xl">Our Services</h1>
       <h2 class="text-2xl md:text-3xl font-extrabold text-[#07193a]">We Provide Digital Solutions - To Your Digital Problems</h2>
       <p class=" mt-7 font-medium">We have helped businesses go from digital chaos to digital success,
           your is not any different</p>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-10 justify-between place-items-center mt-15">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7 justify-items-center mt-17">
          <div class=" p-5 pt-0 max-w-90 min-w-68 hover:scale-99 h-90 shadow-md shadow-gray-400 rounded-2xl flex flex-col 
-         justify-center items-center mb-6 lg:mb-0">
+         justify-center items-center mb-12 lg:mb-0">
             <i class="fa-brands fa-buffer text-7xl text-white border rounded-lg h-30 w-30 p-5 border-gray-600 bg-blue-950"></i>
             <h3 class="mt-4 font-bold text-xl mb-5">Social Media Content & Management</h3>
             <p>We create content & manage your account for you while you focus on other activities of your business.</p>
          </div>
 
-         <img src="Documents/Asset 2.png " class="absolute top-30 md:right-200 lg:right-300 right-90 size-40 -z-50 opacity-15 rotate-20 ">
-
           <div class="p-5 max-w-90 min-w-68 hover:scale-99 h-90 shadow-md shadow-gray-400 rounded-2xl flex flex-col 
-         justify-center items-center mb-6 lg:mb-0">
-           <i class="fa-solid fa-bullhorn text-7xl text-white border rounded-lg h-30 w-30 p-5 border-gray-600 bg-blue-950""></i>
+         justify-center items-center mb-12 lg:mb-0">
+           <i class="fa-solid fa-bullhorn text-7xl text-white border rounded-lg h-30 w-30 p-5 border-gray-600 bg-blue-950"></i>
             <h3 class="mt-5 font-bold text-xl mb-6">Marketing</h3>
             <p>We make you business known to the public.</p>
          </div>
 
           <div class="p-5 max-w-90 min-w-68 hover:scale-99 h-90 shadow-md shadow-gray-400 rounded-2xl flex flex-col 
-         justify-center items-center mb-6 sm:mb-0">
+         justify-center items-center mb-12 sm:mb-0">
             <i class="fa-solid fa-paintbrush text-7xl text-white border rounded-lg h-30 w-30 p-5 border-gray-600 bg-blue-950""></i>
             <h3 class="mt-5 font-bold text-xl mb-6">Brand Design/Graphics</h3>
             <p>We design logo & flyers that represent your business online.</p>
          </div>
-
-          <img src="Documents/Asset 2.png " class="absolute top-400 size-40 left-97 -z-30 opacity-20 rotate-320 ">
 
          <div class="p-5 max-w-90 min-w-68 hover:scale-99 h-90 shadow-md shadow-gray-400 rounded-2xl flex flex-col 
          justify-center items-center">
@@ -143,16 +139,16 @@ business performance.
 
       
 
-      <div class=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:justify-center justify-between place-items-center">
-         <div class="h-110 p-5 w-110 sm:w-90  shadow-md shadow-gray-400 rounded-3xl flex flex-col 
+      <div class=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:justify-center justify-between gap-5 place-items-center">
+         <div class="h-110 p-5 w-105 sm:w-80  shadow-md shadow-gray-400 rounded-3xl flex flex-col 
          justify-center mb-30  text-left relative ">
             <img class="absolute  bottom-15 left-0 rounded-t-4xl shadow-sm
-             shadow-gray-500 h-110 w-full object-cover" src="Documents/-storage-emulated-0-Download-tech-junction-flyer_015056.png">
+             shadow-gray-500 h-110 w-full  object-cover" src="Documents/-storage-emulated-0-Download-tech-junction-flyer_015056.png">
             <h3 class=" mt-95 font-bold text-lg ">Gadget Flyer Design</h3>
             <h4 class=" font-bold text-sm text-purple-700">TJ Tech Junction</h4>
          </div>
 
-          <div class="h-110 p-5 w-110 sm:w-90  shadow-md shadow-gray-400 rounded-3xl flex flex-col 
+          <div class="h-110 p-5 w-105 sm:w-80  shadow-md shadow-gray-400 rounded-3xl flex flex-col 
          justify-center mb-30  text-left relative ">
             <img class="absolute  bottom-15 left-0 rounded-t-4xl shadow-sm
              shadow-gray-500 h-110 w-full object-cover" src="Documents/Artboard 1-100.jpg">
@@ -160,7 +156,7 @@ business performance.
             <h4 class=" font-bold text-sm text-green-600">FitFlex Gym</h4>
          </div>
 
-         <div class="h-110 p-5 w-110 sm:w-90  shadow-md shadow-gray-400 rounded-3xl flex flex-col 
+         <div class="h-110 p-5 w-105 sm:w-80 shadow-md shadow-gray-400 rounded-3xl flex flex-col 
          justify-center mb-13 sm:mb-30 text-left relative ">
             <img class="absolute  bottom-15 left-0 rounded-t-4xl shadow-sm
              shadow-gray-500 h-110 w-full object-cover" src="Documents/dronenewspaper.com_ (1).png">
@@ -180,9 +176,9 @@ business performance.
 
       <div class="grid grid-cols-1 sm:grid-cols-2 justify-center items-center">
       <div class="flex flex-col mb-15 sm:mb-0 justify-center items-center sm:items-start
-       bg-blue-300 rounded-2xl w-90 m-auto p-4 sm:h-97 border border-blue-950">
+       bg-blue-300 rounded-2xl m-auto p-4 min-w-60 max-w-90 sm:h-97 border border-blue-950">
          <img src="Documents/clients-photo1.jpg" alt="clients-photo" class="object-cover
-         size-45 sm:size-30 rounded-full">
+         size-40 sm:size-30 rounded-full">
          <h3 class="mt-5 font-bold text-md mb-1">Vernon Llewellyn Coker</h3>
          <p class=" font-bold text-lg mb-3">Founder & CEO Asap Deliveries</p>
          <p class="sm:text-left"><span class="font-bold ">"</span>Duis rhoncus dui venenatis consequat porttitor. 
@@ -190,10 +186,10 @@ business performance.
             urna sapien imperdiet lectus, et molestie sem tortor quis dui.<span class="font-bold">"</span></p>
       </div>
 
-      <div class="flex flex-col justify-center items-center sm:items-start sm:h-97
-       bg-blue-300 rounded-2xl w-90 m-auto p-4 border border-blue-950">
+      <div class="flex flex-col justify-center min-w-60 max-w-90 items-center sm:items-start sm:h-97
+       bg-blue-300 rounded-2xl m-auto p-4 border border-blue-950">
          <img src="Documents/clients-photo2.jpg" alt="clients-photo" class="object-cover
-         size-45 sm:size-30 rounded-full">
+         size-40 sm:size-30 rounded-full">
          <h3 class="mt-5 font-bold text-md mb-1">Alex Lawrence Koroma</h3>
          <p class=" font-bold text-lg mb-3">Founder & CEO Drone Newspaper</p>
          <p class="sm:text-left"><span class="font-bold ">"</span>Duis rhoncus dui venenatis consequat porttitor. 
@@ -229,7 +225,7 @@ business performance.
          <img src="Documents/fb-logo2.png" alt="Facebook" 
          class="cursor-pointer  size-8 hover:scale-90 transition-all duration-300 ease-in-out">
          </a>
-         <a href="https://www.instagram.com/teksavy_sl?igsh=MXJydWkxNmdlZGJzdQ==" target="_blank">
+         <a href="https://www.tiktok.com/@teksavy4?_r=1&_t=ZS-93haOtsTOnn" target="_blank">
          <img src="Documents/ig-logo.jpg" alt="Instagram" class=" cursor-pointer size-8 hover:scale-90 transition-all duration-300 ease-in-out">
          </a>
         <a href="https://www.tiktok.com/@teksavy4?_r=1&_t=ZS-93haOtsTOnn" target="_blank">
