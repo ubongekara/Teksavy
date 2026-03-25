@@ -30,7 +30,7 @@ toTopBtn.addEventListener("click", ()=> {
 document.addEventListener("DOMContentLoaded", ()=> {
    const sections = document.querySelectorAll(".fade-in");
    sections.forEach((section, index) => {
-      section.style.transitionDelay = `${index * 600}ms`;
+      section.style.transitionDelay = `${index * 700}ms`;
       setTimeout(() => {
          section.classList.remove("opacity-0", "translate-y-10");
           section.classList.add("opacity-100", "translate-y-0");
