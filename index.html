@@ -10,11 +10,11 @@
 
 </head>
 </head>
-<body>
+<body class="m-0 box-border">
 
    <!--Header-->
 
-   <header class="flex fixed w-full flex-row shadow-md z-50 bg-white justify-between gap-2.5 md:p-10 items-center h-16  p-5" >
+   <header class="flex fixed w-full flex-row shadow-md z-50 bg-white justify-between gap-2.5 md:p-10 items-center h-16 p-5" >
          <img src="Documents/Asset 1.png"  alt="Teksavy-Logo" class="size-25 md:size-29 object-contain">
          <nav class="md:flex flex-row justify-between items-center gap-7 hidden">
             <a href="#home" class="cursor-pointer font-semibold underline decoration-transparent hover:underline-offset-4 transition-all ease-in-out duration-400 hover:decoration-blue-900">Home</a>
@@ -33,7 +33,7 @@
          
    </header>
 
-   <div id="hiddenmenu" class="bg-white h-[50vh] opacity-0 transition-all duration-300 
+   <div id="hiddenmenu" class="bg-white h-[60vh] opacity-0 transition-all duration-300 
    ease-in-out -translate-y-5 pointer-events-none delay-75  text-lg pl-10 pt-30 font-bold fixed w-full z-40" >
             <a href="#home"><div class=" transition-all duration-200 ease-in-out pl-3 mr-5 mb-3 active:text-blue-900 cursor-pointer hover:border border-gray-500 bg-blue-100 active:bg-white rounded-sm" >Home</div></a>
             <a href="#service"><div class="transition-all duration-200 ease-in-out pl-3 mr-5 mb-3 active:text-blue-900 cursor-pointer hover:border border-gray-500 bg-blue-100 active:bg-white rounded-sm">Services</div></a>
@@ -44,49 +44,50 @@
 
    <!--Hero-Section -->
 
-   <section id="home" class="relative w-full  h-screen text-center text-white md:pt-40  pt-30 p-4">
-      <img src="Documents/header3.jpg" alt="" class=" h-screen w-full object-cover absolute top-0 left-0 -z-20">
+   <section id="home" class=" relative w-full  h-screen text-center text-white 
+   md:pt-40  pt-30 p-4 fade-in opacity-0 translate-y-10 transition-all duration-700">
+      <img src="Documents/header4.jpg" alt="" class=" h-screen w-full object-cover absolute top-0 left-0 -z-20">
      <div class="bg-[#070e2b] h-screen w-full absolute top-0 left-0 opacity-50 -z-10"></div>
       <h1 class="text-4xl font-extrabold md:text-5xl" >Digital <span class="text-blue-400" >Solutions</span> For Businesses</h1>
       <p class="text-lg mt-17 font-medium md:text-xl" >If you are looking for an agency that combines competence and experience
           with enthusiasm, then you have found the right partner with us.</p>
-       <a href="https://wa.me/23273289623"><button class="hover:bg-[#030f27] hover:shadow-md cursor-pointer mt-19 h-12 text-lg w-36 rounded-2xl bg-[#07193a]
-         shadow-white font-bold shadow-sm text-white">Quick Contact</button></a>
+       <a href="https://wa.me/23273289623"><button class="hover:bg-[#030f27] hover:shadow-md text-blue-950 hover:text-white cursor-pointer mt-19 h-12 text-lg w-36 rounded-2xl bg-[#ffffff]
+         shadow-black font-bold shadow-md ">Quick Contact</button></a>
    </section>
 
    <!--Services-Section-->
 
    
-   <section id="service" class="text-center w-full p-6">
+   <section id="service" class="fade-in opacity-0 translate-y-10 transition-all duration-700 text-center w-full p-6">
       <h1 class="text-[23px] font-bold mb-5 md:text-3xl">Our Services</h1>
       <h2 class="text-2xl md:text-3xl font-extrabold text-[#07193a]">We Provide Digital Solutions - To Your Digital Problems</h2>
       <p class=" mt-7 font-medium">We have helped businesses go from digital chaos to digital success,
           your is not any different</p>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7 justify-items-center mt-17">
-         <div class=" p-5 pt-0 max-w-90 min-w-68 hover:scale-99 h-90 shadow-md shadow-gray-400 rounded-2xl flex flex-col 
+         <div class=" p-5 pt-0 max-w-85 min-w-68 hover:scale-99 h-86 shadow-md shadow-gray-400 rounded-2xl flex flex-col 
          justify-center items-center mb-12 lg:mb-0">
-            <i class="fa-brands fa-buffer text-7xl text-white border rounded-lg h-30 w-30 p-5 border-gray-600 bg-blue-950"></i>
+            <i class="fa-brands fa-buffer text-6xl text-white border rounded-lg h-25 w-25 p-5 border-gray-600 bg-blue-950"></i>
             <h3 class="mt-4 font-bold text-xl mb-5">Social Media Content & Management</h3>
             <p>We create content & manage your account for you while you focus on other activities of your business.</p>
          </div>
 
-          <div class="p-5 max-w-90 min-w-68 hover:scale-99 h-90 shadow-md shadow-gray-400 rounded-2xl flex flex-col 
+          <div class="p-5 max-w-85 min-w-68 hover:scale-99 h-86 shadow-md shadow-gray-400 rounded-2xl flex flex-col 
          justify-center items-center mb-12 lg:mb-0">
-           <i class="fa-solid fa-bullhorn text-7xl text-white border rounded-lg h-30 w-30 p-5 border-gray-600 bg-blue-950"></i>
+           <i class="fa-solid fa-bullhorn text-6xl text-white border rounded-lg h-25 w-25 p-5 border-gray-600 bg-blue-950"></i>
             <h3 class="mt-5 font-bold text-xl mb-6">Marketing</h3>
             <p>We make you business known to the public.</p>
          </div>
 
-          <div class="p-5 max-w-90 min-w-68 hover:scale-99 h-90 shadow-md shadow-gray-400 rounded-2xl flex flex-col 
+          <div class="p-5 max-w-85 min-w-68 hover:scale-99 h-86 shadow-md shadow-gray-400 rounded-2xl flex flex-col 
          justify-center items-center mb-12 sm:mb-0">
-            <i class="fa-solid fa-paintbrush text-7xl text-white border rounded-lg h-30 w-30 p-5 border-gray-600 bg-blue-950""></i>
+            <i class="fa-solid fa-paintbrush text-6xl text-white border rounded-lg h-25 w-25 p-5 border-gray-600 bg-blue-950""></i>
             <h3 class="mt-5 font-bold text-xl mb-6">Brand Design/Graphics</h3>
             <p>We design logo & flyers that represent your business online.</p>
          </div>
 
-         <div class="p-5 max-w-90 min-w-68 hover:scale-99 h-90 shadow-md shadow-gray-400 rounded-2xl flex flex-col 
+         <div class="p-5 max-w-85 min-w-68 hover:scale-99 h-90 shadow-md shadow-gray-400 rounded-2xl flex flex-col 
          justify-center items-center">
-            <i class="fa-solid fa-laptop-code text-[70px] text-white border rounded-lg opacity-90 h-30 w-30 pt-6 pl-4 pr-6 border-gray-600 bg-blue-950""></i>
+            <i class="fa-solid fa-laptop-code text-[57px] text-white border rounded-lg h-25 w-25 pt-6 pl-4 pr-6 border-gray-600 bg-blue-950""></i>
             <h3 class="mt-5 font-bold text-xl mb-6">Web Development/Design</h3>
             <p>We design & develop website that make visitors become customers.</p>
          </div>
@@ -98,14 +99,14 @@
 
    <!--About-->
 
-   <section class="text-center bg-blue-950 text-white p-6  pt-17 pb-17 mt-16" id="about">
+   <section class="fade-in opacity-0 translate-y-10 transition-all duration-700 text-center bg-blue-950 text-white p-6  pt-10 pb-17 mt-16" id="about">
       <h1 class="uppercase text-[20px] font-bold mb-6 mt-5 md:text-2xl">About Us</h1>
       <h2 class="text-2xl mb-6 text-blue-400 md:text-3xl">Teksavy</h2>
-      <p class="text-left mb-4">TEKSAVY is a global digital agency focused on helping brands scale through content, design,
+      <p class="text-center mb-4">TEKSAVY is a global digital agency focused on helping brands scale through content, design,
 and performance-driven marketing. We deliver end-to-end solutions across social media, website
 design and development, and digital marketing—crafted for brands that want to compete and win at the
 highest level.</p>
- <p class="text-left">
+ <p class="text-center">
 We partner with businesses across industries—including retail, healthcare, finance, and corporate
 sectors—to leverage strategic content, modern design systems, and data-driven marketing approaches
 that drive visibility, engagement, and revenue growth. Our work is built on a deep understanding of how
@@ -113,9 +114,9 @@ digital ecosystems operate, ensuring every touchpoint is optimized for both user
 business performance.
  </p>
 
-<div class="bg-blue-900 rounded-xl mt-4 pt-1 pb-5">
+<div class="bg-blue-900 rounded-xl mt-4 pt-1 pb-5 fade-in opacity-0 translate-y-10 transition-all duration-700">
    <h1 class="uppercase text-[20px] font-bold mb-4 mt-5 md:text-2xl">Skills</h1>
-   <h2 class="text-2xl mb-8 text-blue-300 md:text-3xl">Expertise in.</h2>
+   <h2 class="text-2xl mb-8 text-blue-300 md:text-3xl">Expertise in</h2>
    <div class="flex flex-col sm:flex-row sm:flex-wrap justify-around gap-2 items-center">
       <div class="text-md md:text-lg font-bold hover:scale-105">Graphics Design</div>
       <div class="h-2 w-0.5 rounded-full bg-blue-400"></div>
@@ -130,37 +131,35 @@ business performance.
 
    <!--Projects-->
 
-   <section class="p-6 mt-18" id="project">
+   <section class="p-6 mt-18 fade-in opacity-0 translate-y-10 transition-all duration-700" id="project">
       <div class="text-center">
       <h1 class="text-[20px] font-bold mb-5 mt-5 uppercase">Featured Projects</h1>
       <h2 class="text-2xl font-extrabold text-[#07193a]">Our Case Studies</h2>
       <p class=" mt-4 font-medium mb-25">How we have helped other people like you in the past.</p>
       </div>
 
-      
-
       <div class=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:justify-center justify-between gap-5 place-items-center">
-         <div class="h-110 p-5 w-105 sm:w-80  shadow-md shadow-gray-400 rounded-3xl flex flex-col 
+         <div class="h-110 p-5 w-96 sm:w-80  shadow-md shadow-gray-400 rounded-3xl flex flex-col 
          justify-center mb-30  text-left relative ">
-            <img class="absolute  bottom-15 left-0 rounded-t-4xl shadow-sm
-             shadow-gray-500 h-110 w-full  object-cover" src="Documents/-storage-emulated-0-Download-tech-junction-flyer_015056.png">
-            <h3 class=" mt-95 font-bold text-lg ">Gadget Flyer Design</h3>
+            <img class="absolute  bottom-17 left-0 rounded-t-4xl shadow-sm
+             shadow-gray-500 h-103 w-full  object-cover" src="Documents/-storage-emulated-0-Download-tech-junction-flyer_015056.png">
+            <h3 class=" mt-93 font-bold text-lg ">Gadget Flyer Design</h3>
             <h4 class=" font-bold text-sm text-purple-700">TJ Tech Junction</h4>
          </div>
 
-          <div class="h-110 p-5 w-105 sm:w-80  shadow-md shadow-gray-400 rounded-3xl flex flex-col 
+          <div class="h-110 p-5 w-96 sm:w-80  shadow-md shadow-gray-400 rounded-3xl flex flex-col 
          justify-center mb-30  text-left relative ">
-            <img class="absolute  bottom-15 left-0 rounded-t-4xl shadow-sm
-             shadow-gray-500 h-110 w-full object-cover" src="Documents/Artboard 1-100.jpg">
-            <h3 class=" mt-95 font-bold text-lg ">Gym logo Design/Branding</h3>
+            <img class="absolute  bottom-17 left-0 rounded-t-4xl shadow-sm
+             shadow-gray-500 h-103 w-full object-cover" src="Documents/Artboard 1-100.jpg">
+            <h3 class=" mt-3 font-bold text-lg ">Gym logo Design/Branding</h3>
             <h4 class=" font-bold text-sm text-green-600">FitFlex Gym</h4>
          </div>
 
-         <div class="h-110 p-5 w-105 sm:w-80 shadow-md shadow-gray-400 rounded-3xl flex flex-col 
+         <div class="h-110 p-5 w-96 sm:w-80 shadow-md shadow-gray-400 rounded-3xl flex flex-col 
          justify-center mb-13 sm:mb-30 text-left relative ">
-            <img class="absolute  bottom-15 left-0 rounded-t-4xl shadow-sm
-             shadow-gray-500 h-110 w-full object-cover" src="Documents/dronenewspaper.com_ (1).png">
-            <h3 class=" mt-95 font-bold text-lg ">Website Development</h3>
+            <img class="absolute  bottom-17 left-0 rounded-t-4xl shadow-sm
+             shadow-gray-500 h-103 w-full object-cover" src="Documents/dronenewspaper.com_ (1).png">
+            <h3 class=" mt-93 font-bold text-lg ">Website Development</h3>
             <h4 class=" font-bold text-sm text-blue-600">The Drone Newspaper</h4>
          </div>
 
@@ -169,16 +168,16 @@ business performance.
 
    <!--Testimonials-->
 
-   <section class="p-6 text-center ">
+   <section class="p-6 text-center fade-in opacity-0 translate-y-10 transition-all duration-700">
       <h1 class="text-[20px] font-bold mb-5 mt-5 uppercase">Testimonials</h1>
       <h2 class="text-2xl font-extrabold text-[#07193a]">What Our Client’s Say</h2>
       <p class=" mt-7 font-medium mb-15">High praises from our clients, We are sure you’re next.</p>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 justify-center items-center">
       <div class="flex flex-col mb-15 sm:mb-0 justify-center items-center sm:items-start
-       bg-blue-300 rounded-2xl m-auto p-4 min-w-60 max-w-90 sm:h-97 border border-blue-950">
+       bg-blue-300 rounded-2xl m-auto p-4 min-w-60 max-w-85 sm:h-97 border border-blue-950">
          <img src="Documents/clients-photo1.jpg" alt="clients-photo" class="object-cover
-         size-40 sm:size-30 rounded-full">
+         size-30 sm:size-22 rounded-full">
          <h3 class="mt-5 font-bold text-md mb-1">Vernon Llewellyn Coker</h3>
          <p class=" font-bold text-lg mb-3">Founder & CEO Asap Deliveries</p>
          <p class="sm:text-left"><span class="font-bold ">"</span>Duis rhoncus dui venenatis consequat porttitor. 
@@ -186,10 +185,10 @@ business performance.
             urna sapien imperdiet lectus, et molestie sem tortor quis dui.<span class="font-bold">"</span></p>
       </div>
 
-      <div class="flex flex-col justify-center min-w-60 max-w-90 items-center sm:items-start sm:h-97
+      <div class="flex flex-col justify-center min-w-60 max-w-85 items-center sm:items-start sm:h-97
        bg-blue-300 rounded-2xl m-auto p-4 border border-blue-950">
          <img src="Documents/clients-photo2.jpg" alt="clients-photo" class="object-cover
-         size-40 sm:size-30 rounded-full">
+         size-30 sm:size-22 rounded-full">
          <h3 class="mt-5 font-bold text-md mb-1">Alex Lawrence Koroma</h3>
          <p class=" font-bold text-lg mb-3">Founder & CEO Drone Newspaper</p>
          <p class="sm:text-left"><span class="font-bold ">"</span>Duis rhoncus dui venenatis consequat porttitor. 
@@ -201,7 +200,7 @@ business performance.
 
    <!--Contact-->
 
-   <section id="contact" class="bg-gray-900 flex flex-col justify-center 
+   <section id="contact" class="bg-gray-900 flex flex-col justify-center fade-in opacity-0 translate-y-10 transition-all duration-700
    items-center  text-white mr-5 ml-5 rounded-b-xl rounded-t-4xl mt-20 h-69 pb-6 mb-30">
       <h1 class="text-[20px] font-bold mt-5 mb-5 pt-6">Have a project in mind?</h1>
       <p class="mb-3">Contact Teksavy let us help your business.</p>
@@ -211,7 +210,7 @@ business performance.
 
    <!--Footer-->
 
-   <footer class="bg-blue-950 text-white p-6 ">
+   <footer class="bg-blue-950 text-white p-6 fade-in opacity-0 translate-y-10 transition-all duration-700">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center">
       <div class="sm:mr-20">
       <img src="Documents/Asset 1.png" alt="Logo" class="size-h-30 w-40 object-contain">
@@ -225,7 +224,7 @@ business performance.
          <img src="Documents/fb-logo2.png" alt="Facebook" 
          class="cursor-pointer  size-8 hover:scale-90 transition-all duration-300 ease-in-out">
          </a>
-         <a href="https://www.tiktok.com/@teksavy4?_r=1&_t=ZS-93haOtsTOnn" target="_blank">
+         <a href="https://www.instagram.com/teksavy_sl?igsh=MXJydWkxNmdlZGJzdQ==" target="_blank">
          <img src="Documents/ig-logo.jpg" alt="Instagram" class=" cursor-pointer size-8 hover:scale-90 transition-all duration-300 ease-in-out">
          </a>
         <a href="https://www.tiktok.com/@teksavy4?_r=1&_t=ZS-93haOtsTOnn" target="_blank">
@@ -252,7 +251,7 @@ business performance.
             <h1 class="text-2xl font-bold mb-2 sm:mb-4">Contacts</h1>
             <div class="flex flex-row items-center ">
                <img src="Documents/call-logo.jpg " class="size-8">
-               <p class="text-md mb-1">1-555-123-4567</p>
+               <p class="text-md mb-1">+232 73 289623</p>
             </div>
             <div class="flex flex-row items-center gap-1.5">
                <img src="Documents/mail-logo.png" class="size-5">
@@ -260,7 +259,7 @@ business performance.
             </div>
             <div class="flex flex-row items-center gap-1.5" >
                <img src="Documents/location-logo.png" class="size-6">
-               <p class="text-md mb-1">304 North Cardinal St.Dorchester Center, MA 02124</p>
+               <p class="text-md mb-1">Hill Cut, Freetown. Sierra Leone</p>
             </div>
          
       </div>
@@ -272,6 +271,9 @@ business performance.
       <P class="mt-3 text-xs text-center">Copyright © 2026 - WordPress Theme by CreativeThemes</P>
    </footer>
    
+   <script src="index.js">
+      
+   </script>
 </body>
-<script src="index.js"></script>
+
 </html>
